@@ -1,0 +1,29 @@
+Softwares to be installed:
+1. Python
+2. Anaconda
+3. visual studio C++
+4. Cmake
+5. nvidia Cuda developer tool
+
+Libraries to be installed in python:
+
+1. Numpy
+2. Open cv
+3. tensorflow
+4. sklearn
+5. imutils
+6. argparse
+7. matplotlib
+
+Command For exection 
+
+For Training :  python train_mask_detector.py --dataset #Dataset folder path --plot #Plot.png Image path  --model #Model.hdf5 file path to store training
+For Detection : python detect_mask_image.py --image #Test image path --face #Project parent folder path --model #Model.hdf5 file path to store training
+
+For Detection and training of the application:
+
+1. --dataset --> Dataset folder path
+2. --plot --> Plot.png Image path
+3. --image --> Test image path
+4. --face --> Project parent folder path
+5. --model --> Model.hdf5 file path to store training
